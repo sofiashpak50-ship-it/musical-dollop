@@ -462,3 +462,117 @@ body {
     line-height: 1.6;
     color: #718096;
 }
+.footer {
+    background-color: var(--main-purple);
+    color: white;
+    padding: 60px 0 20px 0;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1.2fr;
+    gap: 40px;
+    padding: 0 15px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.brand-col h4 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.brand-col p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.subscribe-input {
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    max-width: 220px;
+}
+
+.subscribe-input input {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+}
+
+.subscribe-input input::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+.subscribe-input input:focus {
+    outline: none;
+}
+
+.subscribe-input button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.footer-col ul li a:hover {
+    opacity: 1;
+}
+
+.app-promo {
+    font-size: 11px;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 10px;
+}
+
+.google-play-badge img {
+    width: 130px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255,0.7);
+}
