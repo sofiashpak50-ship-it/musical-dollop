@@ -17,3 +17,47 @@ body {
     --card-bg: #f4f6fd;
     --cream-bg: #fffdf6;
 }
+.header-container {
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    background-color: var(--main-purple);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+}
+
+.brand-name {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.nav-menu a.active {
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+.nav-icon {
+    font-size: 16px;
+}
