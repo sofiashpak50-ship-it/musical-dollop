@@ -67,3 +67,45 @@ body {
     padding: 60px 40px;
     text-align: left;
 }
+.hero-title-box h1 {
+    color: var(--dark-text);
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+/* ПРОМО БАНЕР */
+.promo-section {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.promo-banner {
+    background-color: var(--main-purple);
+    border-radius: 20px;
+    padding: 50px 40px;
+    color: white;
+}
+
+.promo-content {
+    max-width: 350px;
+}
+
+.promo-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn-learn-more {
+    display: inline-block;
+    background-color: var(--cream-bg);
+    color: var(--dark-text);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
