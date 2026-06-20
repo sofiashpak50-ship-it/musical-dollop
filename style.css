@@ -10,3 +10,10 @@ body {
     color: #4a5568;
     overflow-x: hidden;
 }
+:root {
+    --main-purple: #7586b6;
+    --light-blue-bg: #dde4f8;
+    --dark-text: #3c486b;
+    --card-bg: #f4f6fd;
+    --cream-bg: #fffdf6;
+}
