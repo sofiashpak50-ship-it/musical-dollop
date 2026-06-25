@@ -587,8 +587,8 @@ body {
         grid-template-columns: 1fr;
     }
 }
-/* ------------------------------------------------------------- */
-/* Общие сбросы и шрифты */
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -607,13 +607,13 @@ body {
     padding: 0 20px;
   }
   
-  /* --- СЕКЦИЯ WHY CHOOSE US --- */
+  
   .why-choose-us {
-    background-color: #5d6d9b; /* Сине-серый оттенок как на макете */
+    background-color: #5d6d9b; 
     color: #ffffff;
     text-align: center;
     padding: 60px 0 120px 0;
-    /* Создаем большую арку сверху */
+   
     border-radius: 50% 50% 0 0 / 15% 15% 0 0;
   }
   
@@ -632,7 +632,7 @@ body {
     opacity: 0.85;
   }
   
-  /* Сетка для верхних 3-х карточек */
+ 
   .features-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -661,13 +661,13 @@ body {
   }
   
   
-  /* --- СЕКЦИЯ КАТАЛОГА --- */
+  
   .catalog-section {
     padding: 5px 0 80px 0;
-    margin-top: -50px; /* Наложение на верхнюю секцию */
+    margin-top: -50px; 
   }
   
-  /* Капсульное меню навигации */
+  
   .filter-nav {
     display: flex;
     justify-content: space-between;
@@ -689,7 +689,7 @@ body {
     transition: all 0.3s ease;
   }
   
-  /* Активный пункт меню "FOODS" в белом круге */
+  
   .filter-item.active {
     background-color: #ffffff;
     color: #5d6d9b;
@@ -697,17 +697,17 @@ body {
   }
   
   
-  /* Сетка товаров */
+ 
   .products-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px 30px;
   }
   
-  /* Скошенная карточка товара (эффект параллелограмма) */
+  
   .product-card {
     position: relative;
-    background: #fffcf4; /* Легкий кремовый фон нижней части */
+    background: #fffcf4; 
     border: 1px solid #dcdcdc;
     border-radius: 20px;
     padding: 20px;
@@ -716,7 +716,7 @@ body {
     transition: transform 0.3s ease;
   }
   
-  /* Имитация синего скошенного задника слева-навзничь */
+  
   .product-card::before {
     content: '';
     position: absolute;
@@ -734,10 +734,10 @@ body {
   .product-image-placeholder {
     position: relative;
     z-index: 2;
-    background-color: #cce0ff; /* Светло-голубой бокс для фото */
+    background-color: #cce0ff; 
     height: 180px;
     border-radius: 15px;
-    transform: skewY(-10deg); /* Эффект наклона картинки как на макете */
+    transform: skewY(-10deg);
     margin-bottom: 25px;
   }
   
@@ -767,7 +767,7 @@ body {
   }
   
   
-  /* Адаптивность для мобильных устройств */
+  
   @media (max-width: 768px) {
     .features-grid, .products-grid {
       grid-template-columns: 1fr;
