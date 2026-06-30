@@ -1,0 +1,148 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+.hero{
+    background:#7888b9;
+    padding:150px 40px 60px;
+    position:relative;
+    overflow:hidden;
+}
+
+.circle{
+    position:absolute;
+    width:1400px;
+    height:1400px;
+    border-radius:50%;
+    background:#e7e7e7;
+    left:50%;
+    top:-1150px;
+    transform:translateX(-50%);
+}
+
+.hero-content{
+    position:relative;
+    text-align:center;
+}
+
+.hero h1{
+    color:white;
+    font-size:56px;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    color:white;
+    max-width:800px;
+    margin:0 auto 50px;
+    line-height:1.6;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.feature-card{
+    width:250px;
+    background:#f3efe6;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.feature-card h3{
+    text-align:center;
+    margin-bottom:15px;
+    color:#66709c;
+}
+
+.tabs{
+    width:85%;
+    margin:40px auto;
+    background:#6f7fb1;
+    border-radius:40px;
+    padding:15px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.tabs a{
+    color:white;
+    text-decoration:none;
+}
+
+.active-tab{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#f3efe6;
+    color:#6f7fb1 !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+}
+
+.products{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+}
+
+.product{
+    position:relative;
+}
+
+.product::before{
+    content:"";
+    position:absolute;
+    width:85%;
+    height:95%;
+    background:#7888b9;
+    left:-15px;
+    top:15px;
+    border-radius:12px;
+}
+
+.product-card{
+    position:relative;
+    background:#f3efe6;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transform:rotate(-3deg);
+}
+
+.image{
+    height:140px;
+    background:#d8def5;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:36px;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+.footer-line{
+    height:25px;
+    background:#7888b9;
+    margin-top:50px;
+}
+```
